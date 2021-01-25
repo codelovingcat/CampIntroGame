@@ -33,8 +33,8 @@ namespace Game
             Games games5 = new Games { Id = 5, Name = "Resident Evil 3 Remake", Fiyat = Convert.ToDecimal(89.99) };
 
             Sales sales = new Sales { Id = 5, Name = "Satış", CampaignId = 3};
-            Sales sales2 = new Sales { Id = 2, Name = "Satış", CampaignId = 2};
-            Sales sales3 = new Sales { Id = 1, Name = "Satış", CampaignId = 1};
+            Sales sales2 = new Sales { Id = 2, Name = "Satış2", CampaignId = 2};
+            Sales sales3 = new Sales { Id = 1, Name = "Satış3", CampaignId = 1};
 
 
             CustomerManager customerManager = new CustomerManager(_customerDal);
